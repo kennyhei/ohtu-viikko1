@@ -116,7 +116,7 @@ public class VarastoTest {
     public void eiVoiOttaaNegatiivistaMaaraaVarastosta() {
         varasto.lisaaVarastoon(5);
         
-        double maara = varasto.otaVarastosta(-3);
+        double maara = varasto.otaVarastosta(-4);
         assertEquals(0, maara, vertailuTarkkuus);
     }
     
