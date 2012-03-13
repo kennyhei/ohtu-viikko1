@@ -122,7 +122,7 @@ public class VarastoTest {
     
     @Test
     public void toStringPalauttaaOikeanMerkkijonoEsityksen() {
-        varasto.lisaaVarastoon(5);
+        varasto.lisaaVarastoon(2);
         
         String mjono = varasto.toString();
         
